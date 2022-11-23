@@ -1,0 +1,33 @@
+$gradient-bg2: rgb(204, 47, 92);
+
+$gradient-bg: radial-gradient(
+	circle,
+	rgba(204, 47, 92, 1) 0%,
+	rgba(138, 21, 56, 1) 62%,
+	rgba(138, 21, 56, 1) 62%
+);
+
+// $main: #5d1624;
+$main:#8A1538;
+$main-hover: #5d1624;
+$main-darker: #0000001e;
+
+//5c101f
+
+//5a1523
+
+$white: #fff;
+
+// $button: #17765a;
+$button: #226752;
+$button-darker: #0b5238;
+
+$lightgray: rgb(214, 214, 214);
+
+$shadow: rgba(0, 0, 0, 0.5);
+
+$black:black;
+
+$card:#f8f8f8;
+
+$main-gradient:linear-gradient(87deg, #1c0111 0%, #8A1538 95%);

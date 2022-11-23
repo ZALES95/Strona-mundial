@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+	.header {
+		min-height: 90vh;
+
+		&__content {
+			padding: 4em;
+		}
+
+		&__title {
+			font-size: 3.4rem;
+		}
+
+		&__text {
+			font-size: 1.8rem;
+		}
+
+		&__button {
+			font-size: 2.4rem;
+		}
+	}
+
+	.team {
+		&__cards {
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1fr 1fr 1fr;
+		}
+
+		&__card {
+			margin: 3em 6em;
+		}
+	}
+
+	.offers {
+		&__cards {
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(3, 1fr);
+		}
+
+		&__card {
+			&--first {
+				grid-row: 1/2;
+				grid-column: 1/2;
+			}
+			&--second {
+				grid-column: 1/2;
+				grid-row: 2/3;
+			}
+			&--diamond {
+				grid-column: 1/2;
+				grid-row: 3/4;
+			}
+		}
+	}
+
+     .newsletter {
+          &__text {
+               margin: 0 4em;
+          }
+          &__box {
+               textarea {
+                    max-width: 375px;
+               }
+          }
+     }
+}
